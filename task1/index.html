@@ -1,0 +1,78 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let movies = [
+            {
+                title: "The Godfather",
+                year: "1972",
+                genre: "Drama",
+                director: "Francis Ford Copolla"
+            },
+            {
+                title: "Superbad",
+                year: "2007",
+                genre: "comedy",
+                director: "Greg Motolla"
+            },
+            {
+                title: "The Departed",
+                year: "2006",
+                genre: "Drama",
+                director: "Martin Scorsese"
+            },
+            {
+                title: "Saving Private Ryan",
+                year: "1998",
+                genre: "Action",
+                director: "Steven Spielberg"
+            },
+            {
+                title: "The Expandables",
+                year: "2010",
+                genre: "Action",
+                director: "Sylvester Stallone"
+            }
+        ]
+    </script>
+</head>
+
+<body>
+
+    <script>
+        // for loop
+        for (let i = 0; i <= movies.length; i++) {
+            if (movies[i] && movies[i].title) {
+                console.log(movies[i].title)
+            }
+        }
+
+        // for in
+        for (let i = 0; i <= movies.length; i++) {
+            let value = movies[i]
+            for (let key in value) {
+                if (value[key] === "1998") {
+                    console.log(key, value[key])
+                }
+
+            }
+        }
+
+        // forEach
+        movies.forEach((obj) =>
+            console.log(obj.genre))
+
+
+        // for of
+        for (const obj of movies) {
+            console.log(obj)
+        }
+
+
+    </script>
+
+</body>
+
+</html>

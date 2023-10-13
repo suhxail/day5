@@ -1,0 +1,68 @@
+[
+    {
+        "basics": {
+            "name": "Mohammed Suhail",
+            "label": "Full Stack Developer",
+            "summary": "A Full-Stack Developer with a proven ability to collaborate effectively with senior developers rather than spending extra time to be mentored.A person with a passion for both personal and for the growth of the organization.ready to apply my passion for coding to a talented engineering team to develop quality solutions",
+            "email": "suhail@gmail.com",
+            "location": {
+                "city": "XYZ",
+                "country Code": "+91"
+            },
+            "profiles": [
+                {
+                    "username": "suhxail",
+                    "network": "github"
+                },
+                {
+                    "username": "suhail",
+                    "network": "twitter"
+                }
+            ]
+        },
+        "education": [
+            {
+                "endDate": "03-06-2021",
+                "startDate": "28-8-2017",
+                "degree": "BE",
+                "major": "Mechanical",
+                "studyType": "Bachelors",
+                "institution": "Vels University"
+            }
+        ],
+        "skills": [
+            {
+                "keywords": [
+                    "HTML / JSX",
+                    "CSS",
+                    "JavaScript",
+                    "React",
+                    "Redux"
+                ],
+                "level": "beginner",
+                "name": "frontend"
+            },
+            {
+                "keywords": [
+                    "Node",
+                    "MySQL",
+                    "MONGODB",
+                    "Express"
+                ],
+                "level": "beginner",
+                "name": "backend"
+            }
+        ],
+        "interests": [
+            {
+                "name": "Gardening"
+            },
+            {
+                "name": "Music"
+            },
+            {
+                "name": "Reading/Writing"
+            }
+        ]
+    }
+]
